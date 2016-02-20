@@ -95,4 +95,20 @@ public class BungeeConfigManager {
 
     }
 
+    public Configuration getConfig() {
+        return config;
+    }
+
+    public Configuration getMessages() {
+        return messages;
+    }
+
+    public Configuration getPlayers() {
+        return players;
+    }
+
+    public Configuration getCatbotConfig() {
+        return catbot;
+    }
+
 }
